@@ -10,7 +10,7 @@ import io
 st.set_page_config(page_title="Personal AI Agent", page_icon="🤖", layout="wide")
 
 # Groq API Key সেটআপ
-GROQ_API_KEY = st.secrets"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" 
+GROQ_API_KEY = st.secrets["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"]
 client = Groq(api_key=GROQ_API_KEY)
 
 # সেশন স্টেট ইনিশিয়ালাইজেশন
